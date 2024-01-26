@@ -1,9 +1,10 @@
 import './App.css';
+import CurrentPage from './components/CurrentPage';
 
 function App() {
   return (
     <div className="App">
-      <p className='text-orange-600'>helloo</p>
+      <CurrentPage />
     </div>
   );
 }
