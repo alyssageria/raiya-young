@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'cream': '#edeae6',
+        'green': '#7e846b'
+      }
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+      'lora': ['Lora', 'serif']
+    },
     screens: {
       'xs': '200px',
       'sm': '640px',
