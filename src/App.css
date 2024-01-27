@@ -6,6 +6,7 @@
   margin: 0;
 }
 
+/* navbar styles */
 .logo {
   height: 7rem;
 }
@@ -15,3 +16,5 @@
   top: 0;
   z-index: 1;
 }
+
+/* home styles */
