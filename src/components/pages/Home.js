@@ -1,4 +1,6 @@
 import React from "react";
+import aboutScript from '../../images/about-script-green.png';
+import raiya from '../../images/raiya-bw.JPG';
 
 function Home() {
     return (
@@ -15,8 +17,19 @@ function Home() {
                     </svg>
                 </div>
             </div>
-            <div className="about bg-cream h-[80vh]">
-                <h1 className="font-black text-xl">ABOUT</h1>
+            <div className="about bg-cream h-[70vh]">
+                {/* <div className="flex justify-center">
+                    <img src={aboutScript} className="about-script"></img>
+                </div> */}
+                <div className="grid grid-cols-2">
+                    <div className="flex justify-center ml-20">
+                        <img src={raiya} className="raiya"></img>
+                    </div>
+                    <div className="text-center flex flex-col items-center mr-20">
+                        <img src={aboutScript} className="h-[10rem] w-[23rem]"></img>
+                        <p className="font-montserrat text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel nisi nec ante condimentum efficitur a et mi. Nam et mauris sem. Donec eget justo ante. Sed vel finibus libero. Quisque ex dolor, iaculis eu gravida et, porttitor nec ligula. Duis diam nisi, ornare ut mi a, elementum vestibulum lacus. Phasellus at auctor eros. Nunc nibh lacus, aliquam varius justo ac, ultrices iaculis sapien. Quisque tempus, purus quis mollis lobortis, lorem leo fringilla nunc, vel dapibus augue erat vitae nulla. Aliquam tristique bibendum quam, et rhoncus nulla convallis facilisis. Sed at varius neque. Etiam aliquam lectus et bibendum fringilla.</p>
+                    </div>
+                </div>
             </div>
         </>
     )

@@ -10,7 +10,8 @@ module.exports = {
     },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
-      'lora': ['Lora', 'serif']
+      'lora': ['Lora', 'serif'],
+      'pacifico': ['Pacifico', 'cursive']
     },
     screens: {
       'xs': '200px',
