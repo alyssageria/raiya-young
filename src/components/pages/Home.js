@@ -35,7 +35,7 @@ function Home() {
             <div className="speaking">
                 <div className="bg-green h-screen">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 1440 319"><path fill="#edeae6" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,101.3C960,107,1200,149,1320,170.7L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+                        viewBox="0 0 1440 275"><path fill="#edeae6" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,101.3C960,107,1200,149,1320,170.7L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
                         </path>
                     </svg>
                     <div className="lg:grid grid-cols-2">
@@ -48,6 +48,15 @@ function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="book bg-cream h-[80vh] flex justify-center items-center">
+                <form className="flex flex-col w-[55rem] h-[70vh] bg-brown rounded-xl flex items-center justify-center">
+                    <h1 className="text-center m-5 text-2xl">Contact Me!</h1>
+                    <input type="text" placeholder="First Name" className="text-center m-5 rounded text-xl w-96"></input>
+                    <input type="text" placeholder="Last Name" className="text-center m-5 rounded text-xl w-96"></input>
+                    <input type="text" placeholder="Email" className="text-center m-5 rounded text-xl w-96"></input>
+                    <button className="bg-cream w-32 rounded m-5 text-xl">Submit</button>
+                </form>
             </div>
         </>
     )
