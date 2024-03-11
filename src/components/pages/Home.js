@@ -2,6 +2,10 @@ import React from "react";
 import aboutScript from '../../images/about-script-green.png';
 import raiya from '../../images/raiya-bw.JPG';
 import speakingScript from '../../images/speaking.png';
+import instagram from '../../images/instagram-icon.png';
+import facebook from '../../images/facebook-icon.png';
+import linkedin from '../../images/linkedin-icon.png';
+import twitter from '../../images/twitter-icon.png';
 
 function Home() {
     return (
@@ -18,7 +22,7 @@ function Home() {
                     </svg>
                 </div>
             </div>
-            <div className="about bg-cream xs:h-screen lg:max-h-[50vh]">
+            <div className="about bg-cream xs:h-auto lg:max-h-[50vh]">
                 {/* <div className="flex justify-center">
                     <img src={aboutScript} className="about-script"></img>
                 </div> */}
@@ -33,7 +37,7 @@ function Home() {
                 </div>
             </div>
             <div className="speaking">
-                <div className="bg-green h-screen">
+                <div className="bg-green xs:screen-auto lg:h-screen">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 1440 275"><path fill="#edeae6" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,101.3C960,107,1200,149,1320,170.7L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
                         </path>
@@ -57,6 +61,12 @@ function Home() {
                     <input type="text" placeholder="Email" className="text-center m-5 rounded text-xl w-96"></input>
                     <button className="bg-cream w-32 rounded m-5 text-xl">Submit</button>
                 </form>
+            </div>
+            <div className="connect bg-green h-[30vh] flex justify-center items-center">
+                <img src={instagram} className="h-20 m-8"></img>
+                <img src={twitter} className="h-20 m-8"></img>
+                <img src={facebook} className="h-20 m-8"></img>
+                <img src={linkedin} className="h-20 m-8"></img>
             </div>
         </>
     )
