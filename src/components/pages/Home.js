@@ -53,13 +53,14 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="book bg-cream h-[80vh] flex justify-center items-center">
-                <form className="flex flex-col w-[55rem] h-[70vh] bg-brown rounded-xl flex items-center justify-center">
-                    <h1 className="text-center m-5 text-2xl">Contact Me!</h1>
-                    <input type="text" placeholder="First Name" className="text-center m-5 rounded text-xl w-96"></input>
-                    <input type="text" placeholder="Last Name" className="text-center m-5 rounded text-xl w-96"></input>
-                    <input type="text" placeholder="Email" className="text-center m-5 rounded text-xl w-96"></input>
-                    <button className="bg-cream w-32 rounded m-5 text-xl">Submit</button>
+            <div className="book bg-cream flex justify-center items-center">
+                <form className="transition ease-in-out delay-150 flex flex-col w-[55rem] min-h-[70vh] bg-black opacity-75 hover:opacity-85 rounded-2xl flex items-center justify-center">
+                    <h1 className="text-center text-white m-5 text-4xl">Contact Me</h1>
+                    <input type="text" placeholder="First Name" className="text-center m-5 rounded-xl text-xl w-10/12 h-12"></input>
+                    <input type="text" placeholder="Last Name" className="text-center m-5 rounded-xl text-xl w-10/12 h-12"></input>
+                    <input type="text" placeholder="Email" className="text-center m-5 rounded-xl text-xl w-10/12 h-12"></input>
+                    <input type="text" placeholder="Message" className="text-center m-5 rounded-xl text-xl w-10/12 h-28"></input>
+                    <button className="transition ease-in-out delay-150 text-white bg-green hover:bg-cream hover:text-green w-32 rounded-xl m-5 w-4/12 h-10 text-xl">Submit</button>
                 </form>
             </div>
             <div className="connect bg-green h-[30vh] flex justify-center items-center">

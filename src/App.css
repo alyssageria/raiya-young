@@ -26,3 +26,11 @@
   border-radius: 100%;
   /* height: 25rem; */
 }
+
+.book {
+  background-image: url('./images/leaves-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
